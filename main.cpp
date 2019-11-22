@@ -17,7 +17,7 @@ int main(){
     system(("python3 ImageParser.py " + fileLocation).c_str());
 
     const int NUM_CHARS = 10;
-    char newCharacters[NUM_CHARS - 1] = {  '.', '<', '~', '+', '=', '%', '&', '#', '@' };
+    char newCharacters[NUM_CHARS - 1] = { '.', '<', '~', '+', '?', '%', '&', '#', '@' };
     const double MAX_VALUE = 255.0;
 
     std::ifstream file;
